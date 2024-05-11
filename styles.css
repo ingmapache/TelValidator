@@ -1,0 +1,78 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #009adb, #0014ff, #443535);
+    overflow: hidden;
+
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 320px;
+    height: 650px;
+    background-color: white;
+    border: 10px solid rgba(221, 221, 221, 0.76);
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px rgba(58, 57, 57, 30%);
+}
+
+.punchHole {
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    margin: 10px auto 5px auto;
+    border-radius: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#user-input {
+    width: 250px;
+    height: 3rem;
+    font-size: 2rem;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#results-div {
+    width: 250px;
+    height: 390px;
+    margin: 20px auto 10px auto;
+    
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    width: 125px;
+    height: 40px;
+    margin: 0;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.buttons:active {
+    color: #0014ff;
+}
